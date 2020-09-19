@@ -1,0 +1,42 @@
+{
+  "name": "html-creater",
+  "version": "0.0.1",
+  "description": "HTMLを作るのに向いていると思う。",
+  "main": "dist/scripts/main.js",
+  "scripts": {
+    "build": "npx gulp scss ejs webpack",
+    "scss": "npx gulp scss",
+    "ejs": "npx gulp ejs",
+    "webpack": "npx gulp webpack"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-sass": "^4.0.0",
+    "babel-loader": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-ejs": "^5.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "defaults",
+    "maintained node versions"
+  ]
+}
